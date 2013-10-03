@@ -2,9 +2,9 @@
 
 	date_default_timezone_set('America/Chicago');
 	
-	$time = date("h:i a");
+	$time = date("G");
 
-	if(strtotime($time) >= strtotime('06:00 am') && strtotime($time) <= strtotime('08:00 pm')) {
+	if($time >= 6 && $time <= 20) {
 		$background_color = '#43c4ef';
 		$text_color = "#000000";
 	}

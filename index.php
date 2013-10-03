@@ -24,14 +24,7 @@
 			color:<?=$text_color?>;
 		}
 
-		#p2 {
-			color:<?=$text_color?>;
-		}
 	</style>
-
-	<script src = "/javascript/javascript.js" type="text/javascript">
-
-	</script>
 
 </head>
 
@@ -41,8 +34,7 @@
 		The background color is <?=disp_bg_color($background_color)?>. <br>
 		The text color is <?=disp_text_color($text_color)?>.
 	</p>
-	<p id="p2"><a href="#" onclick="toggledesc()">Toggle Text</a></p>
-	<p id="p2"><a href="#" onclick="centerText('center')">Align Center</a></p>
+	
 </body>
 
 </html>
